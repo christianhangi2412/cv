@@ -3,24 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-	<title>Christian's personal site</title>
+    <title>Christian's personal website</title>
+    <!--External CSS Styling : Using the link element to include a reference to an external stylesheet file-->
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 
 <body>
 
     <!--Create a table to place the picture next to the little bio --> 
-    <table cellspacing="20">
+    <table cellspacing="30">
         <tr>
             <td>
-                <img src="circle-cropped.png" alt="Christian's profile picture" width="150" height="150">
+                <img src="chris-hangi-circle-cropped.png" alt="Christian's profile picture" width="150" height="150">
             </td>
-            
-            <td>
+                <td>
                 <h1>Christian Hangi</h1>
                 <p><em><strong>Junior Software Developer</strong> with a passion for new technologies</em></p>
                 <p>I am a graduate computer systems engineer who has the knowledge and skills in computer engineering, 
                     electronic and IT. <br>I am open to innovation, good team player and able to think through a problem 
-                    with the confidence to make my ideas heard. I also ❤ coffee.
+                    with the confidence to make my ideas heard. <br> I &#10084; coffee &#9749; and reading books &#128214 .
                 </p>
             </td>
         </tr>
@@ -30,36 +32,15 @@
 
     <h3>Work Experiences</h3>
 
-   <!-- The first way of creating a two-dimensional table with rows and columns  
-       
-      <table>
 
-        <tr>
-            <td>February 2020 to July 2020</td>
-            <td>Junior Software Developer at EFT Corporation South Africa</td>
-        </tr>
-
-        <tr>
-            <td>August 2017 to August 2019</td>
-            <td>Junior Electronics Technician at Domiday Distributors (August 2017 to August 2019)</td>
-        </tr>
-
-        <tr>
-            <td>January 2014 to December 2014</td>
-            <td>Network IT Intern at Western Digital Corporation Thailand</td>
-        </tr>
-
-    </table> 
-
-    --> 
-
-    <!--The second way of creating a two-dimensional table with rows and columns (recommanded)-->
+    <!-- Creating a two-dimensional table with rows and columns (recommanded) using the table element-->
 
     <table cellspacing="10">
 
         <thead>
             <th>Dates</th>
             <th>Work</th>
+            <th>Place</th>
         </thead>
 
         <tbody>
@@ -67,16 +48,19 @@
             <tr>
                 <td>February 2020 to July 2020</td>
                 <td>Junior Software Developer at EFT Corporation South Africa</td>
+                <td>Johannesburg, South Africa</td>
             </tr>
     
             <tr>
                 <td>August 2017 to August 2019</td>
-                <td>Junior Electronics Technician at Domiday Distributors (August 2017 to August 2019)</td>
+                <td>Junior Electronics Technician at Domiday Distributors</td>
+                <td>Durban, South Africa</td>
             </tr>
     
             <tr>
                 <td>January 2014 to December 2014</td>
                 <td>Network IT Intern at Western Digital Corporation Thailand</td>
+                <td>Bangpa-In, Ayutthaya, Thailand</td>
             </tr>
 
         </tbody>
@@ -87,16 +71,16 @@
 
     <h3>Education</h3>
     <ul>
-        <li>Bachelor of Technology degree in Computer Systems Engineering (Obtained in 2017)</li>
-        <li>National Diploma in Computer Systems Engineering (Obtained in 2013)</li>
-        <li>Matriculation Grade 12 NQF Level 4 Scientific Option Biology/Chemistry (Obtained in 2009)</li>
+        <li><a href="https://https://www.dut.ac.za/">Durban University of Technology</a>, Durban, South Africa, 2015 - 2017, Bachelor of Technology in Electrical Engineering (Computer Systems)</li>
+        <li><a href="https://https://www.dut.ac.za/">Durban University of Technology</a>, Durban, South Africa, 2010 - 2013, National Diploma in Computer Systems Engineering</li>
+        <li>Cardinal Malula School, Kinshasa, D.R. Congo, 2003 - 2009, Matriculation Grade 12 NQF Level 4 Scientific Option Biology/Chemistry</li>
     </ul>
 
     <hr>
 
     <!--Creating a table of skills using the table element-->
     
-    <h3>skills</h3>
+    <h3>Skills</h3>
 
     <table cellspacing="10">
 
@@ -187,7 +171,7 @@
 
                     <tr>
                         <td>Photography</td>
-                        <td>⭐</td>
+                        <td>⭐⭐</td>
                     </tr>
 
                 </table>
@@ -202,6 +186,7 @@
 
     <p>You can find me on:</p>
     
+    <!--Using the unordered list and anchor tags to link my twitter and LinkedIn home pages-->
     <ul>
 
         <li><strong><a href="https://www.linkedin.com/in/hanginium65">LinkedIn</a></strong></li>
@@ -209,7 +194,8 @@
 
     </ul>
 
-    <p><a href="hobbies.html">My hobbies</a> <br> 
+    <!--Using anchor tags to link my hobbies and contact-me pages-->
+    <p><a href="hobbies.html">My hobbies</a>
         <a href="contact-me.html">Contact Me</a></p>
 
 
